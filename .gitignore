@@ -4,6 +4,8 @@
 !README.md
 !CREDITS.md
 !LICENSE
+!AGENTS.md
+!CLAUDE.md
 !tools/
 !tools/**
 tools/__pycache__/

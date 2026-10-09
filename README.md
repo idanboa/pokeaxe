@@ -106,6 +106,10 @@ Optional: `tools/emu.py`, `tools/bot.py` and `tools/trailer.py` drive a locally 
 | `bps.py` | BPS patch writer / applier |
 | `emu.py`, `bot.py`, `trailer.py` | Emulator harness, scripted player, trailer recorder |
 
+## For AI coding agents
+
+See [AGENTS.md](AGENTS.md) for repository rules, the build/verify loop and the engine facts discovered while making this.
+
 ## Credits
 
 See [CREDITS.md](CREDITS.md). Built by [idanboa](https://github.com/idanboa) with the help of Claude Code.
