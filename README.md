@@ -17,10 +17,13 @@ Golden Axe for the Sega Mega Drive, played as **Bulbasaur, Charmander and Squirt
 2. Download [**PokeAxe-1.1.bps**](https://github.com/idanboa/pokeaxe/releases/latest/download/PokeAxe-1.1.bps) and apply it to the ROM with [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
 3. Play it in [OpenEmu](https://openemu.org) (Mac), [RetroArch](https://www.retroarch.com) (everywhere) or [BlastEm](https://www.retrodev.com/blastem/) (Windows, Mac, Linux).
 
-**Controls:** B attack · C jump · A magic · double-tap to run
-
 ---
 
-Made by [idanboa](https://github.com/idanboa) with Claude Code · [Credits](CREDITS.md) · [Build from source](docs/DEVELOPMENT.md)
+Made by [idanboa](https://github.com/idanboa) · [Credits](CREDITS.md) · [Build from source](docs/DEVELOPMENT.md)
 
-A free fan project, not affiliated with Sega, Nintendo or The Pokémon Company. Golden Axe © SEGA. Pokémon © Nintendo / Creatures / GAME FREAK. No ROMs included.
+## Legal
+
+PokéAxe is a free, non-commercial fan project and is not affiliated with or endorsed by Sega, Nintendo, Game Freak,
+Creatures Inc. or The Pokémon Company. Golden Axe © SEGA. Pokémon © Nintendo / Creatures Inc. / GAME FREAK inc.
+No ROMs are distributed here. The code in `tools/` is MIT-licensed (see [LICENSE](LICENSE)); the sprites and
+cries it uses are not, and are covered by their own terms (see [CREDITS.md](CREDITS.md)).
