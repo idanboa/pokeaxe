@@ -58,7 +58,7 @@ You need your own copy of the original cartridge ROM. This repository does **not
 
 | | |
 |---|---|
-| Required ROM | Golden Axe (World) (Rev A) — No-Intro name |
+| Required ROM | [Golden Axe (World) (Rev A)](https://vimm.net/vault/Genesis) — No-Intro name |
 | Size | 524,288 bytes |
 | CRC32 | `665D7DF9` |
 | SHA-1 | `2CE17105CA916FBBE3AC9AE3A2086E66B07996DD` |

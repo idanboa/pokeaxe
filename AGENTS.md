@@ -9,7 +9,7 @@ release artefact is a BPS patch. Read `README.md` first for the player-facing vi
 - **Never commit or upload ROMs, ROM dumps, extracted game data, sprites or cries.** `.gitignore` is a whitelist
   (only `README.md`, `CREDITS.md`, `LICENSE`, `AGENTS.md`, `CLAUDE.md`, `tools/`, `docs/`, `patch/*.bps`). If you add a
   new top-level file that belongs in the repo, whitelist it explicitly; never loosen the rule with a broad pattern.
-- Never add links or hints pointing to ROM download sites.
+- The README's link for the required ROM name was chosen by the repo owner; do not add other ROM links or host ROMs.
 - The base ROM must be Rev A: CRC32 `665D7DF9`, SHA-1 `2CE17105CA916FBBE3AC9AE3A2086E66B07996DD`. All addresses
   below are for that ROM.
 - Keep the project non-commercial (sprites are CC BY-NC 4.0). Update `CREDITS.md` when adding a Pokémon.
