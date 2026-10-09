@@ -79,7 +79,8 @@ overwrites). Before calling a change done:
   soldiers and big foes, with ~15 per-stage variants in `MapEntityGroupPaletteTable` (`$389E8`); slots 12-15 are
   overwritten by the "GO" arrow palette (`$2E6D2`), so they are fixed. Line 2 = mounts (`$38ACC`), slots 11-15 are
   the fire colours. On the select screen, lines 0-2 are **one palette at three brightness levels**.
-- **Damage**: enemies lose health via `sub.b d3,$64(a0)` at 11 sites. Sega's code branches into the middle of nearby
+- **Damage**: enemies lose health via `sub.b d3,$64(a0)` at 11 sites (optional `patches.two_hit_kills` in
+  `mod.json`, off since 1.1). Sega's code branches into the middle of nearby
   instruction sequences (e.g. `$F39A` → `$F3A8`), so a patch may only replace that exact 4-byte instruction
   (done with `bsr.w` to a trampoline in `$FF` padding at `$140D0`). Hit depth tolerance is `moveq #8,d2` at `$BF48`.
 - **Sound**: SMPS Z80 driver at ROM `$1D2F0`. Samples are 4-bit DPCM played from Z80 RAM `$0F08`; the 68000 copies a

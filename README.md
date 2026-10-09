@@ -1,6 +1,6 @@
 # PokéAxe
 
-**Golden Axe (Sega Mega Drive / Genesis) — rebuilt with Pokémon.** Version 1.0.
+**Golden Axe (Sega Mega Drive / Genesis) — rebuilt with Pokémon.** Version 1.1.
 
 Play as Bulbasaur, Charmander or Squirtle and fight your way through all eight stages of Golden Axe against
 Pokémon foes, each with its own sprites, animations and cry. It is still Golden Axe underneath: the same levels,
@@ -50,7 +50,6 @@ Each Pokémon foe cries when hit and when knocked out (classic Game Boy-era crie
 
 **Gameplay**
 
-- Every enemy goes down in two hits.
 - Wider attack lane: you no longer need to line up pixel-perfectly to connect (depth tolerance 8 → 14 px).
 
 ## How to play
@@ -64,12 +63,20 @@ You need your own copy of the original cartridge ROM. This repository does **not
 | CRC32 | `665D7DF9` |
 | SHA-1 | `2CE17105CA916FBBE3AC9AE3A2086E66B07996DD` |
 
-1. Download `PokeAxe-1.0.bps` from the [latest release](https://github.com/idanboa/pokeaxe/releases/latest) (also in [`patch/`](patch/)).
+1. Download `PokeAxe-1.1.bps` from the [latest release](https://github.com/idanboa/pokeaxe/releases/latest) (also in [`patch/`](patch/)).
 2. Apply it to the ROM above with any BPS patcher, for example [Floating IPS](https://github.com/Alcaro/Flips) or the browser-based [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
    The patcher will refuse a different ROM revision.
-3. Play the result in any Mega Drive / Genesis emulator. Tested in Genesis Plus GX (OpenEmu and libretro).
+3. Play the result in any Mega Drive / Genesis emulator, for example:
 
-Patched ROM: 1,048,576 bytes, CRC32 `8856D184`, SHA-1 `C55B0504F62011DDD7FD4EE96E1A31882CF593B6`.
+   | Emulator | Platforms |
+   |---|---|
+   | [OpenEmu](https://openemu.org) | macOS |
+   | [RetroArch](https://www.retroarch.com) with the [Genesis Plus GX](https://github.com/libretro/Genesis-Plus-GX) core | Windows, macOS, Linux, Android, iOS |
+   | [BlastEm](https://www.retrodev.com/blastem/) | Windows, macOS, Linux |
+
+   Tested in Genesis Plus GX (OpenEmu and libretro).
+
+Patched ROM: 1,048,576 bytes, CRC32 `FEF0E9E2`, SHA-1 `44641FE5EFB60AC55421B959368328EA9E37DD63`.
 
 **Controls** (Mega Drive pad): **B** attack, **C** jump, **A** magic. Double-tap a direction to run; run + attack for a
 dash attack.

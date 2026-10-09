@@ -1335,7 +1335,6 @@
   ]
  },
  "patches": {
-  "two_hit_kills": true,
   "hit_depth_tolerance": 14
  },
  "select_screen": {
