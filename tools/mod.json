@@ -1,0 +1,1400 @@
+{
+ "palette_groups": {
+  "heroes": {
+   "palettes": [
+    230546
+   ],
+   "fixed": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "free": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    14,
+    15
+   ],
+   "copies": [
+    192376,
+    192408
+   ]
+  },
+  "enemies": {
+   "palettes": [
+    232004,
+    232038,
+    232072,
+    232106,
+    232174,
+    232208,
+    232242,
+    232276,
+    232310,
+    232378,
+    232412,
+    232446,
+    232480,
+    232514,
+    232548
+   ],
+   "fixed": [
+    4,
+    8,
+    9,
+    10,
+    11
+   ],
+   "free": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "fixed_values": {
+    "12": 0,
+    "13": 136,
+    "14": 204,
+    "15": 3822
+   }
+  },
+  "mounts": {
+   "palettes": [
+    232140
+   ],
+   "fixed": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "free": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ },
+ "presets": {
+  "hero": {
+   "0": {
+    "anim": "Walk"
+   },
+   "14": {
+    "anim": "Idle"
+   },
+   "21": {
+    "anim": "Idle"
+   },
+   "1": {
+    "anim": "Walk",
+    "dir": "upleft"
+   },
+   "6": {
+    "anim": "Walk"
+   },
+   "2": {
+    "anim": [
+     "Attack"
+    ]
+   },
+   "3": {
+    "anim": [
+     "Swing",
+     "Attack"
+    ]
+   },
+   "4": {
+    "anim": [
+     "Strike",
+     "Attack"
+    ]
+   },
+   "5": {
+    "anim": [
+     "Double",
+     "Swing"
+    ]
+   },
+   "7": {
+    "anim": [
+     "Charge",
+     "Attack"
+    ]
+   },
+   "8": {
+    "anim": [
+     "Strike",
+     "Double",
+     "Attack"
+    ]
+   },
+   "11": {
+    "anim": [
+     "Shoot",
+     "Swing"
+    ]
+   },
+   "13": {
+    "anim": [
+     "Pose",
+     "Shoot"
+    ]
+   },
+   "9": {
+    "anim": "Hop"
+   },
+   "15": {
+    "anim": "Hop",
+    "frames": [
+     0,
+     3
+    ]
+   },
+   "16": {
+    "anim": "Hop",
+    "frames": [
+     0,
+     2
+    ]
+   },
+   "26": {
+    "anim": "Hop"
+   },
+   "29": {
+    "anim": "Hop"
+   },
+   "18": {
+    "anim": [
+     "Swing",
+     "Attack"
+    ]
+   },
+   "19": {
+    "anim": [
+     "Attack"
+    ]
+   },
+   "20": {
+    "anim": [
+     "Strike",
+     "Attack"
+    ]
+   },
+   "23": {
+    "anim": "Hurt"
+   },
+   "24": {
+    "anim": [
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "12": {
+    "anim": "Hurt"
+   },
+   "10": {
+    "anim": "TumbleBack"
+   },
+   "17": {
+    "anim": [
+     "Wake",
+     "Laying"
+    ]
+   },
+   "22": {
+    "anim": [
+     "Faint"
+    ]
+   },
+   "25": {
+    "anim": [
+     "Sit",
+     "Idle"
+    ]
+   },
+   "27": {
+    "anim": [
+     "Sit",
+     "Idle"
+    ]
+   },
+   "28": {
+    "anim": [
+     "Sit",
+     "Idle"
+    ]
+   },
+   "30": {
+    "anim": [
+     "Sit",
+     "Idle"
+    ]
+   }
+  },
+  "soldier": {
+   "0": {
+    "anim": "Walk"
+   },
+   "1": {
+    "anim": "Walk",
+    "dir": "upleft"
+   },
+   "26": {
+    "anim": "Idle"
+   },
+   "20": {
+    "anim": "Idle"
+   },
+   "2": {
+    "anim": [
+     "Attack",
+     "Strike",
+     "Slap"
+    ]
+   },
+   "3": {
+    "anim": [
+     "Swing",
+     "Slap",
+     "Attack"
+    ]
+   },
+   "14": {
+    "anim": [
+     "Attack"
+    ]
+   },
+   "21": {
+    "anim": [
+     "Attack"
+    ]
+   },
+   "4": {
+    "anim": "Walk"
+   },
+   "5": {
+    "anim": "Hop"
+   },
+   "25": {
+    "anim": [
+     "QuickStrike",
+     "Kick",
+     "Strike",
+     "Punch",
+     "Attack"
+    ]
+   },
+   "6": {
+    "anim": [
+     "TumbleBack",
+     "Hurt"
+    ]
+   },
+   "7": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ]
+   },
+   "13": {
+    "anim": [
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "27": {
+    "anim": [
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "22": {
+    "anim": [
+     "LostBalance",
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "23": {
+    "anim": [
+     "LostBalance",
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "24": {
+    "anim": [
+     "LostBalance",
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "8": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "9": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "10": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "11": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "12": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "15": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "16": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "17": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "18": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "19": {
+    "anim": [
+     "Hurt"
+    ]
+   }
+  },
+  "skeleton": {
+   "0": {
+    "anim": "Walk"
+   },
+   "1": {
+    "anim": "Walk",
+    "dir": "upleft"
+   },
+   "18": {
+    "anim": "Idle"
+   },
+   "2": {
+    "anim": [
+     "Swing",
+     "Attack"
+    ]
+   },
+   "3": {
+    "anim": [
+     "Attack"
+    ]
+   },
+   "4": {
+    "anim": [
+     "Strike",
+     "Punch",
+     "Attack"
+    ]
+   },
+   "15": {
+    "anim": [
+     "Attack"
+    ]
+   },
+   "16": {
+    "anim": [
+     "Swing",
+     "Attack"
+    ]
+   },
+   "17": {
+    "anim": "Hop"
+   },
+   "5": {
+    "anim": "Walk"
+   },
+   "6": {
+    "anim": [
+     "Kick",
+     "Punch",
+     "Strike",
+     "Attack"
+    ]
+   },
+   "7": {
+    "anim": "Hop"
+   },
+   "8": {
+    "anim": [
+     "TumbleBack",
+     "Hurt"
+    ]
+   },
+   "9": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "10": {
+    "anim": [
+     "Hurt"
+    ]
+   },
+   "11": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ]
+   },
+   "12": {
+    "anim": [
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "13": {
+    "anim": [
+     "Pain",
+     "Hurt"
+    ]
+   },
+   "14": {
+    "anim": [
+     "Charge",
+     "Idle"
+    ]
+   },
+   "19": {
+    "anim": [
+     "Wake",
+     "Sleep",
+     "Hurt"
+    ]
+   },
+   "20": {
+    "anim": [
+     "Rotate",
+     "Hop",
+     "Idle"
+    ]
+   }
+  },
+  "giant": {
+   "0": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "2": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "12": {
+    "anim": "Idle",
+    "pick": [
+     0
+    ]
+   },
+   "1": {
+    "anim": [
+     "Punch",
+     "Attack",
+     "Swing"
+    ],
+    "pick": [
+     1,
+     3
+    ]
+   },
+   "3": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "4": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "5": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "6": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "7": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "8": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "9": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "10": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "11": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   }
+  },
+  "adder": {
+   "0": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "2": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "1": {
+    "anim": [
+     "Strike",
+     "Attack",
+     "Swing"
+    ],
+    "pick": [
+     1,
+     3
+    ]
+   },
+   "3": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "4": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "5": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "6": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "7": {
+    "anim": [
+     "Attack"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "8": {
+    "anim": [
+     "Attack"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "9": {
+    "anim": [
+     "Attack"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "10": {
+    "anim": [
+     "Attack"
+    ],
+    "pick": [
+     0
+    ]
+   }
+  },
+  "knight": {
+   "0": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "2": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "1": {
+    "anim": [
+     "MultiScratch",
+     "Attack",
+     "Swing"
+    ],
+    "pick": [
+     1,
+     3
+    ]
+   },
+   "3": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "4": {
+    "anim": [
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "5": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   },
+   "6": {
+    "anim": [
+     "Charge",
+     "Idle"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "7": {
+    "anim": [
+     "Charge",
+     "Idle"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "8": {
+    "anim": [
+     "Charge",
+     "Idle"
+    ],
+    "pick": [
+     0
+    ]
+   },
+   "9": {
+    "anim": [
+     "Charge",
+     "Idle"
+    ],
+    "pick": [
+     0
+    ]
+   }
+  },
+  "mount": {
+   "0": {
+    "anim": "Walk",
+    "pick": [
+     0,
+     2
+    ]
+   },
+   "1": {
+    "anim": [
+     "Stomp",
+     "Shoot",
+     "SpAttack",
+     "Attack"
+    ],
+    "pick": [
+     1
+    ]
+   },
+   "2": {
+    "anim": "Walk",
+    "pick": [
+     0
+    ]
+   },
+   "3": {
+    "anim": "Walk",
+    "pick": [
+     0
+    ]
+   },
+   "4": {
+    "anim": [
+     "Faint",
+     "Sleep",
+     "Hurt"
+    ],
+    "pick": [
+     -1
+    ]
+   }
+  }
+ },
+ "characters": [
+  {
+   "name": "ax",
+   "pokemon": "Bulbasaur",
+   "pmd": "../assets/pmd/0001",
+   "scale": 2,
+   "feet_y": 4,
+   "max_tiles": 48,
+   "palette_group": "heroes",
+   "animation_table": 238416,
+   "animation_count": 31,
+   "dma_table": 280878,
+   "tile_base": 281496,
+   "tile_base_refs": [
+    21366,
+    34530
+   ],
+   "animations": "hero",
+   "effect": {
+    "style": "leaf",
+    "colors": [
+     [
+      70,
+      170,
+      60
+     ],
+     [
+      190,
+      240,
+      140
+     ]
+    ],
+    "count": 5,
+    "size": 4
+   },
+   "bounds_table": 235946
+  },
+  {
+   "name": "tyris",
+   "pokemon": "Charmander",
+   "pmd": "../assets/pmd/0004",
+   "scale": 2,
+   "feet_y": 4,
+   "max_tiles": 48,
+   "palette_group": "heroes",
+   "animation_table": 250906,
+   "animation_count": 31,
+   "dma_table": 394608,
+   "tile_base": 395174,
+   "tile_base_refs": [
+    21380,
+    34542
+   ],
+   "animations": "hero",
+   "effect": {
+    "style": "fire",
+    "colors": [
+     [
+      200,
+      50,
+      20
+     ],
+     [
+      250,
+      140,
+      40
+     ],
+     [
+      255,
+      240,
+      150
+     ]
+    ],
+    "count": 4,
+    "size": 4
+   },
+   "bounds_table": 235946
+  },
+  {
+   "name": "gilius",
+   "pokemon": "Squirtle",
+   "pmd": "../assets/pmd/0007",
+   "scale": 2,
+   "feet_y": 4,
+   "max_tiles": 48,
+   "palette_group": "heroes",
+   "animation_table": 244912,
+   "animation_count": 31,
+   "dma_table": 326488,
+   "tile_base": 327074,
+   "tile_base_refs": [
+    21394,
+    34554
+   ],
+   "animations": "hero",
+   "effect": {
+    "style": "water",
+    "colors": [
+     [
+      110,
+      190,
+      240
+     ],
+     [
+      240,
+      250,
+      255
+     ]
+    ],
+    "count": 5,
+    "size": 4
+   },
+   "bounds_table": 235946
+  },
+  {
+   "name": "heninger",
+   "pokemon": "Pikachu",
+   "pmd": "../assets/pmd/0025",
+   "scale": 2,
+   "feet_y": 12,
+   "max_tiles": 32,
+   "palette_group": "enemies",
+   "animation_table": 276054,
+   "animation_count": 28,
+   "dma_table": 430438,
+   "tile_base": 430912,
+   "tile_base_refs": [
+    21212,
+    59236
+   ],
+   "pictures": {
+    "0": [
+     "Walk",
+     0,
+     "left"
+    ],
+    "1": [
+     "Walk",
+     1,
+     "left"
+    ],
+    "2": [
+     "Walk",
+     2,
+     "left"
+    ],
+    "3": [
+     "Walk",
+     3,
+     "left"
+    ],
+    "4": [
+     "Walk",
+     0,
+     "upleft"
+    ],
+    "5": [
+     "Walk",
+     1,
+     "upleft"
+    ],
+    "6": [
+     "Walk",
+     2,
+     "upleft"
+    ],
+    "7": [
+     "Walk",
+     3,
+     "upleft"
+    ],
+    "8": [
+     "Idle",
+     0,
+     "left"
+    ],
+    "9": [
+     "Swing",
+     3,
+     "left"
+    ],
+    "10": [
+     "Swing",
+     5,
+     "left"
+    ],
+    "11": [
+     "Swing",
+     7,
+     "left"
+    ],
+    "12": [
+     "Attack",
+     1,
+     "left"
+    ],
+    "13": [
+     "Attack",
+     3,
+     "left"
+    ],
+    "14": [
+     "Walk",
+     0,
+     "left"
+    ],
+    "15": [
+     "Walk",
+     1,
+     "left"
+    ],
+    "16": [
+     "Walk",
+     2,
+     "left"
+    ],
+    "17": [
+     "Walk",
+     3,
+     "left"
+    ],
+    "18": [
+     "Hop",
+     4,
+     "left"
+    ],
+    "19": [
+     "TumbleBack",
+     2,
+     "left"
+    ],
+    "20": [
+     "Pose",
+     0,
+     "left"
+    ],
+    "21": [
+     "Pain",
+     0,
+     "left"
+    ],
+    "22": [
+     "TumbleBack",
+     5,
+     "left"
+    ],
+    "23": [
+     "Faint",
+     3,
+     "left"
+    ],
+    "24": [
+     "Pain",
+     1,
+     "left"
+    ],
+    "25": [
+     "Pain",
+     3,
+     "left"
+    ],
+    "26": [
+     "LostBalance",
+     0,
+     "left"
+    ],
+    "27": [
+     "Attack",
+     0,
+     "left"
+    ],
+    "28": [
+     "QuickStrike",
+     3,
+     "left"
+    ]
+   },
+   "effect": {
+    "style": "spark",
+    "colors": [
+     [
+      250,
+      220,
+      40
+     ],
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    "count": 2,
+    "size": 4
+   },
+   "bounds_table": 262754
+  },
+  {
+   "name": "longmoan",
+   "pokemon": "Machop",
+   "pmd": "../assets/pmd/0066",
+   "scale": 2,
+   "feet_y": 12,
+   "max_tiles": 32,
+   "palette_group": "enemies",
+   "animation_table": 466802,
+   "animation_count": 28,
+   "dma_table": 447968,
+   "bounds_table": 262754,
+   "animations": "soldier",
+   "tile_base": 448370,
+   "tile_base_refs": [
+    21226,
+    26612,
+    63534
+   ]
+  },
+  {
+   "name": "amazon",
+   "pokemon": "Jynx",
+   "pmd": "../assets/pmd/0124",
+   "scale": 2,
+   "feet_y": 12,
+   "max_tiles": 32,
+   "palette_group": "enemies",
+   "animation_table": 495826,
+   "animation_count": 28,
+   "dma_table": 499854,
+   "bounds_table": 262754,
+   "animations": "soldier",
+   "tile_source": {
+    "mode": "nemesis_ram",
+    "block": 500314,
+    "refs": [
+     4942,
+     18656,
+     19480
+    ],
+    "max_bytes": 15360
+   }
+  },
+  {
+   "name": "skeleton",
+   "pokemon": "Marowak",
+   "pmd": "../assets/pmd/0105",
+   "scale": 2,
+   "feet_y": 12,
+   "max_tiles": 32,
+   "palette_group": "heroes",
+   "animation_table": 257286,
+   "animation_count": 21,
+   "dma_table": 367170,
+   "bounds_table": 262754,
+   "animations": "skeleton",
+   "tile_base": 367596,
+   "tile_base_refs": [
+    21198,
+    54794
+   ]
+  },
+  {
+   "name": "giants",
+   "pokemon": "Machamp",
+   "kind": "preloaded",
+   "pmd": "../assets/pmd/0068",
+   "scale": 2,
+   "feet_y": "auto",
+   "palette_group": "enemies",
+   "animation_table": 473006,
+   "animation_count": 13,
+   "bounds_table": 262754,
+   "block": 480042,
+   "block_refs": [
+    6114,
+    80504
+   ],
+   "animations": "giant",
+   "budget": 531
+  },
+  {
+   "name": "death-adder",
+   "pokemon": "Tyranitar",
+   "kind": "preloaded",
+   "pmd": "../assets/pmd/0248",
+   "scale": 2,
+   "feet_y": "auto",
+   "palette_group": "enemies",
+   "animation_table": 475538,
+   "animation_count": 12,
+   "bounds_table": 262754,
+   "block": 490862,
+   "block_refs": [
+    6122,
+    80508
+   ],
+   "animations": "adder",
+   "budget": 232,
+   "pattern_base": 531,
+   "skip_animations": [
+    11
+   ]
+  },
+  {
+   "name": "lt-bitter",
+   "pokemon": "Scizor",
+   "kind": "preloaded",
+   "pmd": "../assets/pmd/0212",
+   "scale": 2,
+   "feet_y": "auto",
+   "palette_group": "enemies",
+   "animation_table": 509720,
+   "animation_count": 10,
+   "bounds_table": 262754,
+   "block": 512136,
+   "block_refs": [
+    80512
+   ],
+   "animations": "knight",
+   "budget": 376
+  },
+  {
+   "name": "chicken-leg",
+   "pokemon": "Rhydon",
+   "kind": "preloaded",
+   "pmd": "../assets/pmd/0112",
+   "scale": 2,
+   "feet_y": "auto",
+   "palette_group": "mounts",
+   "animation_table": 264298,
+   "animation_count": 5,
+   "bounds_table": 262754,
+   "block": 265866,
+   "block_refs": [
+    6364,
+    80516
+   ],
+   "animations": "mount",
+   "budget": 176
+  },
+  {
+   "name": "dragon",
+   "pokemon": "Charizard",
+   "kind": "preloaded",
+   "pmd": "../assets/pmd/0006",
+   "scale": 2,
+   "feet_y": "auto",
+   "palette_group": "mounts",
+   "animation_table": 269078,
+   "animation_count": 5,
+   "bounds_table": 262754,
+   "block": 270590,
+   "block_refs": [
+    6212,
+    80520
+   ],
+   "animations": "mount",
+   "keep_tiles": [
+    198,
+    273
+   ]
+  }
+ ],
+ "hud": {
+  "block": 95572,
+  "refs": [
+   4892,
+   14998,
+   20058
+  ],
+  "palette_group": "heroes",
+  "portraits": [
+   {
+    "tile": 19,
+    "bg": 12,
+    "pmd": "../assets/pmd/0001"
+   },
+   {
+    "tile": 23,
+    "bg": 10,
+    "pmd": "../assets/pmd/0004"
+   },
+   {
+    "tile": 27,
+    "bg": 13,
+    "pmd": "../assets/pmd/0007"
+   }
+  ]
+ },
+ "patches": {
+  "two_hit_kills": true,
+  "hit_depth_tolerance": 14
+ },
+ "select_screen": {
+  "scale": 2,
+  "feet_y": 0,
+  "vram_start": 768,
+  "vram_end": 1344,
+  "palette": 18060,
+  "heroes": [
+   {
+    "pmd": "../assets/pmd/0001",
+    "copy": 17626,
+    "table": 17904
+   },
+   {
+    "pmd": "../assets/pmd/0004",
+    "copy": 17666,
+    "table": 17912
+   },
+   {
+    "pmd": "../assets/pmd/0007",
+    "copy": 17706,
+    "table": 17920
+   }
+  ],
+  "brightness": [
+   1.0,
+   0.78,
+   0.6
+  ]
+ },
+ "cries": {
+  "calibration": {
+   "clock": 3579545,
+   "base": 191,
+   "per": 13
+  },
+  "death_pitch": 31,
+  "hit_pitch": 20,
+  "hit_seconds": 0.3,
+  "pokemon": {
+   "heninger": "../assets/cries/25.ogg",
+   "longmoan": "../assets/cries/66.ogg",
+   "amazon": "../assets/cries/124.ogg",
+   "skeleton": "../assets/cries/105.ogg",
+   "giants": "../assets/cries/68.ogg",
+   "death-adder": "../assets/cries/248.ogg",
+   "lt-bitter": "../assets/cries/212.ogg",
+   "chicken-leg": "../assets/cries/112.ogg",
+   "dragon": "../assets/cries/6.ogg"
+  },
+  "death_sites": {
+   "58260": 123112,
+   "64644": 123112,
+   "64654": 125624,
+   "68900": 123112,
+   "71480": 123112,
+   "74740": 123112,
+   "80118": 125624
+  }
+ }
+}

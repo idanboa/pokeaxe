@@ -1,0 +1,13 @@
+# Whitelist: only our own code, docs and the patch. ROMs, dumps, assets, ref/, .tools/ and out/ never get committed.
+*
+!.gitignore
+!README.md
+!CREDITS.md
+!LICENSE
+!tools/
+!tools/**
+tools/__pycache__/
+!docs/
+!docs/**
+!patch/
+!patch/*.bps
