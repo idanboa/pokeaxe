@@ -6,7 +6,9 @@ Play as Bulbasaur, Charmander or Squirtle and fight your way through all eight s
 Pokémon foes, each with its own sprites, animations and cry. It is still Golden Axe underneath: the same levels,
 music, magic, timing and hit boxes.
 
-![Select screen](docs/screenshots/02-select.png)
+| | |
+|---|---|
+| ![Title screen](docs/screenshots/01-title.png) | ![Select screen](docs/screenshots/02-select.png) |
 
 **Trailer:** [PokeAxe-trailer.mp4](https://github.com/idanboa/pokeaxe/releases/latest/download/PokeAxe-trailer.mp4) (real gameplay, recorded in an emulator)
 
@@ -15,6 +17,7 @@ music, magic, timing and hit boxes.
 | ![Bulbasaur](docs/screenshots/03-bulbasaur-razor-leaf.png) | ![Charmander](docs/screenshots/04-charmander-ember.png) |
 | ![Squirtle](docs/screenshots/05-squirtle-bubble.png) | ![Machamp](docs/screenshots/06-machamp-boss-rhydon.png) |
 | ![Charizard](docs/screenshots/07-charizard-mount.png) | ![Scizor](docs/screenshots/08-scizor.png) |
+| ![Tyranitar as Death Adder](docs/screenshots/09-tyranitar.png) | |
 
 ## What's changed
 
